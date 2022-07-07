@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="dist/output.css">
+  <title>Frontend Mentor | Advice generator app</title>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="w-screen h-screen bg-DarkBlue flex justify-center items-center px-4 font-Manrope"  >
+
+    <div class="card relative w-9/12  h-auto px-0.5  py-4 bg-DarkGrayishBlue text-LightCyan rounded-lg
+     flex justify-center items-center flex-col sm:w-80 md:h-80">
+
+      <h4 class="text-NeonGreen py-4">
+        ADVICE #<span id="num">117</span>
+      </h4>
+
+      <div class="advice-text text-center w-60 text-2xl font-extrabold" id="advice-text">
+    "It is easy to sit up and take notice, what's difficult is getting up and taking action"
+      </div>
+
+      <div class="pattern pt-8 pb-10 w-100 md:hidden">
+        <img src="/images/pattern-divider-mobile.svg" alt="pattern-divider-mobile">
+      </div>
+
+      <div class="pattern-desktop pt-8 pb-10 hidden md:block ">
+        <img src="/images/pattern-divider-desktop.svg" alt="pattern-divider-mobile">
+      </div>
+
+      <div class="dice bg-NeonGreen py-4 px-4 rounded-full absolute -bottom-6
+       cursor-pointer hover:shadow-lg hover:shadow-GrayishBlue" id="dice">
+        <img src="/images/icon-dice.svg" alt="items-center">
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
